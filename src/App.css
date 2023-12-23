@@ -235,7 +235,7 @@ transition: all 0.4s ease 0s;
     width: 72px;
 }
 .outline-0{
-    outline: 0 ;
+    outline: 0;
 }
 .img-b {
     border-radius: 10px 10px 0px 0px;
@@ -456,7 +456,7 @@ link.active {
 
     label[for="menu-icon"]>span {
         border-radius: 2px;
-        background-color: red;
+        background-color: var(--black);
         display: block;
         height: 5px;
         width: 100%;
