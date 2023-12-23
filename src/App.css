@@ -212,7 +212,7 @@ ul {
 }
 .addbtn{
     transition: all 0.4s ease 0s;
-    border: 2px transparent;
+    border: 1px transparent;
     
 }
 .addbtn:hover{
@@ -222,6 +222,21 @@ border:2px solid var(--black2)!important;
 transition: all 0.4s ease 0s;
 }
 
+.select-box{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 10px 15px;
+    border-radius: 21px;
+    border: 1px solid #e8e8e8;
+    background: rgba(196, 196, 196, 0);
+}
+.size{
+    width: 72px;
+}
+.outline-0{
+    outline: 0 ;
+}
 .img-b {
     border-radius: 10px 10px 0px 0px;
     border: 1px solid rgba(0, 0, 0, 0.08);

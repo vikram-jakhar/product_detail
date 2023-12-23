@@ -9,7 +9,7 @@ const Sec1 = () => {
   let [count, setCount] = React.useState(1);
 
   function add() {
-    setCount((prevCount) => (prevCount < 10 ? prevCount + 1 : prevCount));
+    setCount((prevCount) => (prevCount < 100 ? prevCount + 1 : prevCount));
   }
   function minus() {
     setCount((prevCount) => (prevCount > 1 ? prevCount - 1 : 1));
@@ -111,17 +111,19 @@ const Sec1 = () => {
                 </button>
               </div>
 
-              <div className="pt-3 mt-2 d-flex justify-content-center justify-content-sm-start">
+              <div className="pt-3 mt-2 gap-4 d-flex justify-content-center justify-content-sm-start">
                 <span className="m-0 p-0 black fw-medium fs-2lg lh-lg">
                   Size:{" "}
                 </span>
-                <select className="ms-3 py-2 rounded-pill px-5 fs-2lg black">
+                <div className="select-box">
+                <select className="border-0 outline-0 size">
                   <option value="" className="fs-2lg black">S</option>
                   <option value="" className="fs-2lg black">M</option>
                   <option value="" className="fs-2lg black">L</option>
                   <option value="" className="fs-2lg black">XL</option>
                   <option value="" className="fs-2lg black">XXL</option>
                 </select>
+                </div>
               </div>
               <div className="pt-3 mt-2 d-flex align-items-center justify-content-center justify-content-sm-start">
                 <span className="m-0 p-0 black fw-medium fs-2lg lh-lg">
